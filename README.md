@@ -36,18 +36,32 @@ semester actually runs rather than around a generic notebook.
 ## Install
 
 1. Download the `.dmg` from
-   [the latest release](https://github.com/lucasm3110/semester-app/releases/latest).
-2. Open it and drag **Semester** into Applications.
-3. **First launch needs a right-click.** Right-click (or Control-click)
-   Semester in Applications, choose **Open**, and confirm.
+   [the latest release](https://github.com/lucasm3110/semester-app/releases/latest)
+   and drag **Semester** into Applications.
+2. Open it once. macOS will say it cannot check the app for malicious
+   software — click **Done**. This is expected.
+3. Open **System Settings → Privacy & Security**, scroll to **Security**, and
+   click **Open Anyway** next to the message about Semester. Authenticate when
+   asked. You only do this once.
 
-Step 3 is needed because the app carries an ad-hoc signature rather than a paid
-Apple Developer certificate, so macOS refuses a plain double-click the first
-time. Nothing is wrong, and it is only needed once.
-
-If macOS says the app is damaged, clear the download flag:
+Or, in one line:
 
     xattr -dr com.apple.quarantine /Applications/Semester.app
+
+Both do the same thing.
+
+### Why macOS blocks it
+
+Semester is not notarised by Apple. Notarising requires a paid Apple Developer
+account, which this app does not have, so macOS cannot confirm who built it.
+
+The warning is about the **absence of a signature Apple recognises**, not about
+anything found in the app. The source is not public, so if you are not
+comfortable running un-notarised software, do not install it — that is a fair
+call to make.
+
+On macOS 15 and later the old right-click → Open trick no longer works for
+un-notarised apps. **Open Anyway** in System Settings replaced it.
 
 ## Transcription
 

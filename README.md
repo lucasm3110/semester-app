@@ -3,7 +3,7 @@
 A local-first academic workspace for macOS. Notes, tasks, your class schedule,
 files and lecture recordings for the whole term — in one app, on your Mac.
 
-**[Download Semester 1.0.0 →](https://github.com/lucasm3110/semester-app/releases/latest)**
+**[Download Semester 1.0.1 →](https://github.com/lucasm3110/semester-app/releases/latest)**
 
 Apple Silicon · macOS 10.15 or later · Works offline
 
@@ -36,32 +36,12 @@ semester actually runs rather than around a generic notebook.
 ## Install
 
 1. Download the `.dmg` from
-   [the latest release](https://github.com/lucasm3110/semester-app/releases/latest)
-   and drag **Semester** into Applications.
-2. Open it once. macOS will say it cannot check the app for malicious
-   software — click **Done**. This is expected.
-3. Open **System Settings → Privacy & Security**, scroll to **Security**, and
-   click **Open Anyway** next to the message about Semester. Authenticate when
-   asked. You only do this once.
+   [the latest release](https://github.com/lucasm3110/semester-app/releases/latest).
+2. Open it and drag **Semester** into Applications.
+3. Open it.
 
-Or, in one line:
-
-    xattr -dr com.apple.quarantine /Applications/Semester.app
-
-Both do the same thing.
-
-### Why macOS blocks it
-
-Semester is not notarised by Apple. Notarising requires a paid Apple Developer
-account, which this app does not have, so macOS cannot confirm who built it.
-
-The warning is about the **absence of a signature Apple recognises**, not about
-anything found in the app. The source is not public, so if you are not
-comfortable running un-notarised software, do not install it — that is a fair
-call to make.
-
-On macOS 15 and later the old right-click → Open trick no longer works for
-un-notarised apps. **Open Anyway** in System Settings replaced it.
+That is all. Semester is signed and notarised by Apple, so macOS opens it like
+any other app — no warning, no right-click, no Terminal.
 
 ## Transcription
 

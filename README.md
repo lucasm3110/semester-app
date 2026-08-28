@@ -3,7 +3,7 @@
 A local-first academic workspace for macOS. Notes, tasks, your class schedule,
 files and lecture recordings for the whole term — in one app, on your Mac.
 
-**[Download Semester 1.0.1 →](https://github.com/lucasm3110/semester-app/releases/latest)**
+**[Download Semester 1.1.0 →](https://github.com/lucasm3110/semester-app/releases/latest)**
 
 Apple Silicon · macOS 10.15 or later · Works offline
 
@@ -21,6 +21,8 @@ semester actually runs rather than around a generic notebook.
 - **Calendar** — your class timetable and events together, with per-day
   exceptions for the week a class moves online or gets cancelled.
 - **Files** — PDFs and images with annotations, filed by course or left unfiled.
+- **Textbooks** — hundreds of pages, scrolled properly, with search across every
+  page and a jump to any page number.
 - **Recordings** — record a lecture from anywhere in the app, and transcribe it
   on this Mac only when you ask.
 - **Focus** — a timer that lives in the menu bar.

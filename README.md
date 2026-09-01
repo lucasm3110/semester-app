@@ -3,7 +3,7 @@
 A local-first academic workspace for macOS. Notes, tasks, your class schedule,
 files and lecture recordings for the whole term — in one app, on your Mac.
 
-**[Download Semester 1.2.0 →](https://github.com/lucasm3110/semester-app/releases/latest)**
+**[Download Semester 1.3.0 →](https://github.com/lucasm3110/semester-app/releases/latest)**
 
 Apple Silicon · macOS 10.15 or later · Works offline
 
